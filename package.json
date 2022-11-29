@@ -1,0 +1,21 @@
+{
+  "name": "red",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/node-red/red.js --settings ./settings/settings.js --userDir ./settings",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "S. Nagaitsev",
+  "license": "ISC",
+  "dependencies": {
+    "@loonride/node-red-contrib-xmlrpc": "^1.0.3",
+    "node-red": "^3.0.2",
+    "node-red-dashboard": "^3.2.0",
+    "node-red-node-pi-gpio": "^2.0.5",
+    "node-red-node-serialport": "^1.0.1",
+    "onoff": "^6.0.3",
+    "spi-device": "^3.1.2"
+  }
+}
